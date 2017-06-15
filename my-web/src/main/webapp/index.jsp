@@ -1,16 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-
 <head>
 <title>个人网站</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="resource/css/home.css?v=2" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="resource/js/jquery-1.7.2.js"></script>
+<jsp:include page="WEB-INF/views/header.jsp"></jsp:include>
 </head>
-
 <body>
+<jsp:include page="WEB-INF/views/nav.jsp"></jsp:include>  
+
 
 <div class="wrap">
 	<div class="banner-show" id="js_ban_content">
@@ -19,13 +20,14 @@
 			</div>
 		</div>
 		<div class="cell bns-02" style="display:none;">
+
 			<div class="con">
-				<a href="http://www.xwcms.net" target="_blank" class="banner-link">
+				<a href="#" target="_blank" class="banner-link">
 				<i>圈子</i></a> </div>
 		</div>
 		<div class="cell bns-03" style="display:none;">
 			<div class="con">
-				<a href="http://www.xwcms.net" target="_blank" class="banner-link">
+				<a href="#" target="_blank" class="banner-link">
 				<i>企业云</i></a> </div>
 		</div>
 	</div>
@@ -100,6 +102,7 @@
                     
                 })();
             </script>
+<jsp:include page="WEB-INF/views/left.jsp"></jsp:include>
 	<div class="container">
 		<div class="register-box">
 			<div class="reg-slogan">
@@ -167,8 +170,7 @@
 	</div>
 </div>
 <div align="center">
-<p class="paybot_wrap_p">京ICP证：xxxxxx号&nbsp;&nbsp;《网络文化经营许可证》编号：京网文[2011]xxxx-xxx号&nbsp;&nbsp;<a href="http://www.wanmei.com/permit/audio.htm" target="_blank">《网络视听许可证》编号：xxxxxxx</a>&nbsp;&nbsp;京公网安备xxxxxxxxxxxx号<br><span>© 2004-2099 Perfect World Co.,Ltd. All rights reserved.</span>个人网站（北京）网络技术有限公司版权所有</p>
+<p class="paybot_wrap_p">        京ICP证：xxxxxx号© 2004-2099 Perfect World Co.,Ltd. All rights reserved.</span>个人网站（北京）网络技术有限公司版权所有</p>
 </div>
 </body>
-
 </html>
